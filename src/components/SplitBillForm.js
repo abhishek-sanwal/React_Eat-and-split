@@ -1,6 +1,7 @@
 import Button from "./Button";
 
 export default function SplitBillForm({ selectedFriend }) {
+  console.log(selectedFriend);
   return (
     <form action="#" className="form-split-bill">
       <h2>Split a bill with X</h2>
@@ -17,7 +18,7 @@ export default function SplitBillForm({ selectedFriend }) {
       <label>👭 Who is paying the bill?</label>
       <select>
         <option value="You"> You</option>
-        <option value={selectedFriend.name}>X</option>
+        <option value={selectedFriend.name}>{selectedFriend.name}</option>
       </select>
 
       <Button>Split Bill</Button>

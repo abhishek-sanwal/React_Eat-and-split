@@ -65,7 +65,7 @@ export default function App() {
           {isOpen ? "Close" : "Add Friend"}
         </Button>
       </div>
-      <SplitBillForm selectedFriend={selectedFriend} />
+      {selectedFriend && <SplitBillForm selectedFriend={selectedFriend} />}
     </div>
   );
 }
