@@ -43,10 +43,16 @@ export default function App() {
     setIsOpen(false);
   }
 
-  function addBalance(flag, expense) {
-    flag
-      ? (selectedFriend.balance = selectedFriend.balance - expense)
-      : (selectedFriend.balance = selectedFriend.balance + expense);
+  function addBalance(expense) {
+    // Update Item
+    setFriends((friends) =>
+      friends.map((friend) =>
+        friend.id === selectedFriend?.id
+          ? { ...friend, balance: friend.balance + expense }
+          : friend
+      )
+    );
+    setSelectedFriend(null);
   }
 
   // Set newFriend in our friendList and update FriendList
