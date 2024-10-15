@@ -19,36 +19,36 @@
 
 - ##### <ins>Default State</ins>
 
-![State-1](/eat-and-spilit/public/ss-1.png)
+![State-1](/public/ss-1.png)
 
 ---
 
 - ##### <ins>After clicking on <b>Add Friend </b> button</ins>
 
-![State-2](/eat-and-spilit/public/ss-2.png)
+![State-2](/public/ss-2.png)
 
 ---
 
 - ##### <ins>Adding input data in form</ins>
 
-![State-3](/eat-and-spilit/public/ss-3.png)
+![State-3](/public/ss-3.png)
 
 ---
 
 - ##### <ins>After submitting input data, Instantly it will be added in list</ins>
 
--![State-4](/eat-and-spilit/public/ss-4.png)
+-![State-4](/public/ss-4.png)
 
 ---
 
 - ##### <ins>Split bill widow after clicking on Antony select button and adding some data</ins>
 
-![State-5](/eat-and-spilit/public/ss-5.png)
+![State-5](/public/ss-5.png)
 
 ---
 
 - ##### <ins> After clicking on split bill, instantly it will be reflected in list window.</ins>
 
-![State-6](/eat-and-spilit/public/ss-6.png)
+![State-6](/public/ss-6.png)
 
 ---
