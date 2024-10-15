@@ -40,6 +40,13 @@ export default function App() {
   // Set current selected friend if already same de-select
   function handleSelect(friend) {
     setSelectedFriend(selectedFriend !== friend ? friend : null);
+    setIsOpen(false);
+  }
+
+  function addBalance(flag, expense) {
+    flag
+      ? (selectedFriend.balance = selectedFriend.balance - expense)
+      : (selectedFriend.balance = selectedFriend.balance + expense);
   }
 
   // Set newFriend in our friendList and update FriendList
@@ -65,7 +72,12 @@ export default function App() {
           {isOpen ? "Close" : "Add Friend"}
         </Button>
       </div>
-      {selectedFriend && <SplitBillForm selectedFriend={selectedFriend} />}
+      {selectedFriend && (
+        <SplitBillForm
+          onAddBalance={addBalance}
+          selectedFriend={selectedFriend}
+        />
+      )}
     </div>
   );
 }
