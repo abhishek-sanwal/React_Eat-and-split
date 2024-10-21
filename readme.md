@@ -6,6 +6,12 @@
 
 ---
 
+## Live URL
+
+Have a look at 🚀 [https://abhishek-sanwal-eat-split.netlify.app/](https://abhishek-sanwal-eat-split.netlify.app/) 🚀
+
+---
+
 ### Technologies
 
 - HTML
